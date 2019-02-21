@@ -9,10 +9,10 @@
 import UIKit
 
 class ViewController: UIViewController {
-    
+    //variables to keep track of
     var score = 0
     var timer: Timer!
-    var time: Double = 10
+    var time: Double = 15
     
     
     @IBOutlet weak var startButton: UIButton!
